@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00397D</color>
+    <color name="colorPrimaryDark">#00397D</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="greyBg">#F4F4F4</color>
+    <color name="lightBlack">#2A2A2E</color>
+    <color name="lightGrey">#2A2A2E</color>
+    <color name="blueQuestion">#00397D</color>
+    <color name="buttonColor">#E90F74EC</color>
+    <color name="success">#2ec1ac</color>
+    <color name="warning">#ffc93c</color>
+    <color name="orange">#de4025</color>
+    <color name="gray">#d1d1d1</color>
+</resources>

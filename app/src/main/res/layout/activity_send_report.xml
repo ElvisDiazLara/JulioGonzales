@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Activities.SendReportActivity">
+
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="40dp"
+            android:paddingTop="50dp"
+            android:orientation="vertical">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                android:text="@string/send_report"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                android:text="@string/fill_form"/>
+
+        <TextView
+                android:id="@+id/txtNoFolio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:text="@string/folioNo"/>
+        <TextView
+                android:id="@+id/txtReportId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="29843"
+                android:layout_marginBottom="10dp"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                android:gravity="center"/>
+
+        <TextView
+                android:id="@+id/txtLoadProperty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="10dp"
+                android:text="@string/load_property"/>
+
+        <TextView
+                android:id="@+id/txtPropertyOf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:padding="10dp"
+                android:maxLines="1"
+                android:background="@drawable/grey_input_bg"/>
+
+        <TextView
+                android:id="@+id/txtEconomicNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="10dp"
+                android:text="@string/vehicle_number"/>
+
+        <TextView
+                android:id="@+id/txtVehicleNumberSendReport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:padding="10dp"
+                android:inputType="number"
+                android:maxLines="1"
+                android:background="@drawable/grey_input_bg"/>
+
+        <TextView
+                android:id="@+id/txtLicencePlate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="10dp"
+                android:text="@string/license_plate"/>
+
+        <TextView
+                android:id="@+id/txtLicenceSendReport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:padding="10dp"
+                android:maxLines="1"
+                android:background="@drawable/grey_input_bg"/>
+
+        <TextView
+                android:id="@+id/txtPrintedNameConduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="10dp"
+                android:text="@string/conducted_security"/>
+
+        <TextView
+                android:id="@+id/txtSecurityPersonSendReport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:padding="10dp"
+                android:maxLines="1"
+                android:background="@drawable/grey_input_bg"/>
+
+        <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="10dp"
+                android:text="@string/email_report_sent"/>
+
+        <TextView
+                android:id="@+id/txtEmailReportSendReport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:padding="10dp"
+                android:maxLines="1"
+                android:background="@drawable/grey_input_bg"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp">
+
+                <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp">
+
+                            <TextView
+                                    android:id="@+id/txtDateTime"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="13sp"
+                                    android:textColor="@android:color/black"
+                                    android:layout_marginBottom="10dp"
+                                    android:text="Date / Time"/>
+
+                            <LinearLayout
+                                    android:id="@+id/btnDateDetail"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:background="@drawable/grey_input_bg"
+                                    android:orientation="horizontal">
+
+                                <TextView
+                                        android:id="@+id/txtDateDetail"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:maxLines="1"
+                                        android:padding="4dp"
+                                        android:layout_gravity="center"
+                                        android:textColor="@android:color/black"
+                                        android:textSize="12sp" />
+
+                            </LinearLayout>
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp">
+
+            <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="5dp">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="@android:color/black"
+                        android:layout_marginBottom="10dp"
+                        android:text="Location"/>
+
+                <LinearLayout
+                        android:id="@+id/btnLocation"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:padding="4dp"
+                        android:background="@drawable/grey_input_bg"
+                        android:orientation="horizontal">
+                    <TextView
+                            android:padding="4dp"
+                            android:textSize="12sp"
+                            android:text="Lat: "
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    <TextView
+                            android:id="@+id/latTextView"
+                            android:padding="4dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    <TextView
+                            android:textSize="12sp"
+                            android:padding="4dp"
+                            android:text="Lon: "
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    <TextView
+                            android:id="@+id/lonTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="4dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="12sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+                android:id="@+id/txNameConducted"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="10dp"
+                android:text="@string/follow_up_security"/>
+
+        <EditText
+                android:id="@+id/txtPersonArrival"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:padding="10dp"
+                android:maxLines="1"
+                android:background="@drawable/grey_input_bg"/>
+
+        <TextView
+                android:id="@+id/txtSealNumberContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="10dp"
+                android:text="@string/seal_number"/>
+
+        <EditText
+                android:id="@+id/txtSealNumbers"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:padding="10dp"
+                android:maxLines="1"
+                android:background="@drawable/grey_input_bg"/>
+
+         <TextView
+                 android:id="@+id/txtPrintedNameAfixed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="10dp"
+                android:text="@string/affixed_seals"/>
+
+        <EditText
+                android:id="@+id/txtPersonAfixed"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:padding="10dp"
+                android:maxLines="1"
+                android:background="@drawable/grey_input_bg"/>
+
+        <TextView
+                android:id="@+id/txtNameVerified"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="10dp"
+                android:text="@string/physical_seals"/>
+
+        <EditText
+                android:visibility="gone"
+                android:id="@+id/txtPersonVerified"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:padding="10dp"
+                android:maxLines="1"
+                android:background="@drawable/grey_input_bg"/>
+        <LinearLayout
+                android:id="@+id/btnAddEvidence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_round_blue"
+                android:layout_marginBottom="18dp"
+                android:gravity="center"
+                android:layout_marginHorizontal="20dp">
+            <TextView
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/white"
+                    android:text="Add Evidence"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/createNewReport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_round_blue"
+                android:layout_marginBottom="18dp"
+                android:gravity="center"
+                android:layout_marginHorizontal="20dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:paddingVertical="10dp"
+                    android:text="@string/send"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+</LinearLayout>

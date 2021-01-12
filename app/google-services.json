@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "224647921527",
+    "firebase_url": "https://juliogonzales-5a18d.firebaseio.com",
+    "project_id": "juliogonzales-5a18d",
+    "storage_bucket": "juliogonzales-5a18d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224647921527:android:8640aa60aef6df36",
+        "android_client_info": {
+          "package_name": "com.example.juliogonzales"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224647921527-oetbpfe0b2u6b2v4f81l7eht839qk1ct.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.juliogonzales",
+            "certificate_hash": "5d1298aad1120d67c4e779115d6c998c58f37a9b"
+          }
+        },
+        {
+          "client_id": "224647921527-dm46ad18a2vkl9jgsuhhl0sman4ovi5o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.juliogonzales",
+            "certificate_hash": "4fcd4159ee4b2c8e5ad21118e4a2790fa5ba7b41"
+          }
+        },
+        {
+          "client_id": "224647921527-1nq0vhgf415mbfcu2d02sgtg2e2g1h32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpPYMYFU2az23VQ4TV2K96IV8pNbaDQtk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224647921527-1nq0vhgf415mbfcu2d02sgtg2e2g1h32.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

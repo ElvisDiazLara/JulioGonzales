@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="#3B6B6B6B"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center">
+
+        <ProgressBar
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:id="@+id/more_progress"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

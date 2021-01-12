@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">JulioGonzales</string>
+    <string name="welcome">Welcome!</string>
+    <string name="welcome_description">See your last reports o create a new one!</string>
+    <string name="new_report">New Report</string>
+    <string name="send_report">Send Report</string>
+    <string name="last_reports">Last Reports</string>
+    <string name="create">Create</string>
+    <string name="send">Send</string>
+    <string name="see">See</string>
+    <string name="summary">Summary</string>
+    <string name="summary_description">Check the details before to send the report</string>
+    <string name="not_passed">Not passed</string>
+    <string name="evidence_added">See the evidence added</string>
+    <string name="edit_evidence">Edit evidence</string>
+    <string name="edit">Edit</string>
+    <string name="folioNo">Folio No.</string>
+    <string name="load_property">Load property of:</string>
+    <string name="vehicle_number">Vehicle’s economic number</string>
+    <string name="license_plate">Licence plate</string>
+    <string name="conducted_security">Printed name of person who conducted security inspection upon arrival:</string>
+    <string name="follow_up_security">Printed name of person who conducted security inspection upon arrival:</string>
+    <string name="email_report_sent">Email where the report will sent</string>
+    <string name="fill_form">Fill the following form below</string>
+    <string name="seal_number">Seal number(s) that was on container when it arrived at this facility:</string>
+    <string name="affixed_seals">Printed name of person who affixed seal(s):</string>
+    <string name="physical_seals">Printed name of person who verified physical integrity of seal(s):</string>
+    <string name="notpassed">Not Passed</string>
+    <string name="attach_an_evidence">The evidence \n Tap the image to delete it</string>
+    <string name="log_in">Log in</string>
+    <string name="savepdf">SavePdf</string>
+
+    <string-array name="instructions">
+        <item>Check the bumpers</item>
+        <item>Check the engine</item>
+        <item>Check the tires</item>
+        <item>Check the floor inside the truck</item>
+        <item>Check the fuel tanks</item>
+        <item>Check the cab</item>
+        <item>Check the air tanks</item>
+        <item>Check the drive shafts</item>
+        <item>Check the fifth wheel</item>
+        <item>Check the outside/undercarriage</item>
+        <item>Check the outside/inside doors</item>
+        <item>Check the floor inside the trailer</item>
+        <item>Check the sidewalls</item>
+        <item>Check the frontwall</item>
+        <item>Check the roof</item>
+        <item>Check the refrigeration unit</item>
+        <item>Check the exhaust</item>
+        <item>Are contamination from pests, stems and leaves of plants in the trailer or soil, seeds, animal, bleeds, visible or detected</item>
+        <item>Are container doors, handles, bars, bolts, rivets, bracktes, locking mechanisms unaltered?</item>
+    </string-array>
+
+    <string-array name="instructions_descriptions">
+        <item>Smuggling free?</item>
+        <item>Smuggling free?</item>
+        <item>Smuggling free?</item>
+        <item>Smuggling free?</item>
+        <item>Smuggling free?</item>
+        <item>Smuggling free?</item>
+        <item>Smuggling free?</item>
+        <item>Smuggling free?</item>
+        <item>Smuggling free?</item>
+        <item>Smuggling free?</item>
+        <item>Smuggling free?</item>
+        <item>Smuggling free?</item>
+        <item>Smuggling free?</item>
+        <item>Smuggling free?</item>
+        <item>Smuggling free?</item>
+        <item>Smuggling free?</item>
+        <item>Smuggling free?</item>
+        <item>Smuggling free?</item>
+        <item>Smuggling free?</item>
+    </string-array>
+</resources>

@@ -1,0 +1,1045 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Activities.LastReportSummaryActivity">
+
+<LinearLayout
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="50dp"
+        android:orientation="vertical">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:text="@string/summary"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:layout_marginVertical="15dp"
+            android:paddingHorizontal="30dp"
+            android:text="@string/summary_description"/>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="5dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_grey">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:text="1. Bumpers"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp">
+
+            <ImageView
+                    android:id="@+id/imgPass1LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_report_error"/>
+
+            <TextView
+                    android:id="@+id/txtQuestion1LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/lightBlack"
+                    tools:text="@string/not_passed"/>
+
+            <TextView
+                    android:id="@+id/btnEvidence"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:textColor="@color/lightGrey"
+                    android:text="@string/evidence_added"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="5dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_grey">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:text="2. Engine"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp">
+
+            <ImageView
+                    android:id="@+id/imgPass2LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_report_error"/>
+
+            <TextView
+                    android:id="@+id/txtQuestion2LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/lightBlack"
+                    android:text="@string/not_passed"/>
+
+            <TextView
+                    android:id="@+id/btnEvidence2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:textColor="@color/lightGrey"
+                    android:text="@string/evidence_added"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="5dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_grey">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:text="3. Tires"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp">
+
+            <ImageView
+                    android:id="@+id/imgPass3LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_report_error"/>
+
+            <TextView
+                    android:id="@+id/txtQuestion3LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/lightBlack"
+                    android:text="@string/not_passed"/>
+
+            <TextView
+                    android:id="@+id/btnEvidence3"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:textColor="@color/lightGrey"
+                    android:text="@string/evidence_added"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="5dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_grey">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:text="4. Floor (Truck)"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp">
+
+            <ImageView
+                    android:id="@+id/imgPass4LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_report_error"/>
+
+            <TextView
+                    android:id="@+id/txtQuestion4LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/lightBlack"
+                    android:text="@string/not_passed"/>
+
+            <TextView
+                    android:id="@+id/btnEvidence4"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:textColor="@color/lightGrey"
+                    android:text="@string/evidence_added"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="5dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_grey">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:text="5. Fuel Tanks"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp">
+
+            <ImageView
+                    android:id="@+id/imgPass5LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_report_error"/>
+
+            <TextView
+                    android:id="@+id/txtQuestion5LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/lightBlack"
+                    android:text="@string/not_passed"/>
+
+            <TextView
+                    android:id="@+id/btnEvidence5"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:textColor="@color/lightGrey"
+                    android:text="@string/evidence_added"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="5dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_grey">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:text="6. Cab"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp">
+
+            <ImageView
+                    android:id="@+id/imgPass6LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_report_error"/>
+
+            <TextView
+                    android:id="@+id/txtQuestion6LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/lightBlack"
+                    android:text="@string/not_passed"/>
+
+            <TextView
+                    android:id="@+id/btnEvidence6"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:textColor="@color/lightGrey"
+                    android:text="@string/evidence_added"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="5dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_grey">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:text="7. Air Tanks"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp">
+
+            <ImageView
+                    android:id="@+id/imgPass7LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_report_error"/>
+
+            <TextView
+                    android:id="@+id/txtQuestion7LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/lightBlack"
+                    android:text="@string/not_passed"/>
+
+            <TextView
+                    android:id="@+id/btnEvidence7"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:textColor="@color/lightGrey"
+                    android:text="@string/evidence_added"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="5dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_grey">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:text="8. Drive Shafts"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp">
+
+            <ImageView
+                    android:id="@+id/imgPass8LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_report_error"/>
+
+            <TextView
+                    android:id="@+id/txtQuestion8LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/lightBlack"
+                    android:text="@string/not_passed"/>
+
+            <TextView
+                    android:id="@+id/btnEvidence8"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:textColor="@color/lightGrey"
+                    android:text="@string/evidence_added"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="5dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_grey">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:text="9. Fifth wheel"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp">
+
+            <ImageView
+                    android:id="@+id/imgPass9LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_report_error"/>
+
+            <TextView
+                    android:id="@+id/txtQuestion9LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/lightBlack"
+                    android:text="@string/not_passed"/>
+
+            <TextView
+                    android:id="@+id/btnEvidence9"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:textColor="@color/lightGrey"
+                    android:text="@string/evidence_added"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="5dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_grey">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:text="10. outside/undercarriage"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp">
+
+            <ImageView
+                    android:id="@+id/imgPass10LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_report_error"/>
+
+            <TextView
+                    android:id="@+id/txtQuestion10LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/lightBlack"
+                    android:text="@string/not_passed"/>
+
+            <TextView
+                    android:id="@+id/btnEvidence10"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:textColor="@color/lightGrey"
+                    android:text="@string/evidence_added"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="5dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_grey">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:text="11. outside/inside doors"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp">
+
+            <ImageView
+                    android:id="@+id/imgPass11LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_report_error"/>
+
+            <TextView
+                    android:id="@+id/txtQuestion11LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/lightBlack"
+                    android:text="@string/not_passed"/>
+
+            <TextView
+                    android:id="@+id/btnEvidence11"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:textColor="@color/lightGrey"
+                    android:text="@string/evidence_added"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="5dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_grey">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:text="12. floor inside the trailer"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp">
+
+            <ImageView
+                    android:id="@+id/imgPass12LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_report_error"/>
+
+            <TextView
+                    android:id="@+id/txtQuestion12LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/lightBlack"
+                    android:text="@string/not_passed"/>
+
+            <TextView
+                    android:id="@+id/btnEvidence12"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:textColor="@color/lightGrey"
+                    android:text="@string/evidence_added"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="5dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_grey">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:text="13. sidewalls"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp">
+
+            <ImageView
+                    android:id="@+id/imgPass13LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_report_error"/>
+
+            <TextView
+                    android:id="@+id/txtQuestion13LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/lightBlack"
+                    android:text="@string/not_passed"/>
+
+            <TextView
+                    android:id="@+id/btnEvidence13"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:textColor="@color/lightGrey"
+                    android:text="@string/evidence_added"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="5dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_grey">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:text="14. frontwall"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp">
+
+            <ImageView
+                    android:id="@+id/imgPass14LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_report_error"/>
+
+            <TextView
+                    android:id="@+id/txtQuestion14LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/lightBlack"
+                    android:text="@string/not_passed"/>
+
+            <TextView
+                    android:id="@+id/btnEvidence14"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:textColor="@color/lightGrey"
+                    android:text="@string/evidence_added"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="5dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_grey">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:text="15. roof"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp">
+
+            <ImageView
+                    android:id="@+id/imgPass15LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_report_error"/>
+
+            <TextView
+                    android:id="@+id/txtQuestion15LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/lightBlack"
+                    android:text="@string/not_passed"/>
+
+            <TextView
+                    android:id="@+id/btnEvidence15"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:textColor="@color/lightGrey"
+                    android:text="@string/evidence_added"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="5dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_grey">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:text="16. refrigeration"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp">
+
+            <ImageView
+                    android:id="@+id/imgPass16LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_report_error"/>
+
+            <TextView
+                    android:id="@+id/txtQuestion16LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/lightBlack"
+                    android:text="@string/not_passed"/>
+
+            <TextView
+                    android:id="@+id/btnEvidence16"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:textColor="@color/lightGrey"
+                    android:text="@string/evidence_added"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="5dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_grey">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:text="17. Bumpers"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp">
+
+            <ImageView
+                    android:id="@+id/imgPass17LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_report_error"/>
+
+            <TextView
+                    android:id="@+id/txtQuestion17LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/lightBlack"
+                    android:text="@string/not_passed"/>
+
+            <TextView
+                    android:id="@+id/btnEvidence17"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:textColor="@color/lightGrey"
+                    android:text="@string/evidence_added"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="5dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_grey">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:text="18. Contamination"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp">
+
+            <ImageView
+                    android:id="@+id/imgPass18LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_report_error"/>
+
+            <TextView
+                    android:id="@+id/txtQuestion18LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/lightBlack"
+                    android:text="@string/not_passed"/>
+
+            <TextView
+                    android:id="@+id/btnEvidence18"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:textColor="@color/lightGrey"
+                    android:text="@string/evidence_added"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="5dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_grey">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:text="19. Mechanisms (container)"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp">
+
+            <ImageView
+                    android:id="@+id/imgPass19LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_report_error"/>
+
+            <TextView
+                    android:id="@+id/txtQuestion19LastReport"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/lightBlack"
+                    android:text="@string/not_passed"/>
+
+            <TextView
+                    android:id="@+id/btnEvidence19"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:textColor="@color/lightGrey"
+                    android:text="@string/evidence_added"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <Button
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/btnNextSummaryLastReport"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:background="@drawable/btn_round_blue"
+            android:text="Next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
+</ScrollView>
